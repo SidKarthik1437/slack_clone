@@ -6,7 +6,7 @@ function App() {
       <h1>Heyaaaaaaaaaaaaaa</h1>
 
       {/* Header */}
-      {/* Hehehe */}
+      {/* This is fun af */}
       
     </div>
   );
