@@ -6,8 +6,7 @@ function App() {
       <h1>Heyaaaaaaaaaaaaaa</h1>
 
       {/* Header */}
-      {/* Dimbadakkummi */}
-
+      
     </div>
   );
 }
