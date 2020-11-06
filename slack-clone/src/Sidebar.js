@@ -9,7 +9,7 @@ function Sidebar() {
                 <h2>Sid Karthik</h2>
                 <h3>
                     <FiberManualRecordIcon />
-                    Sid Karthik
+                    SidKarthik
                 </h3>
             </div>
         </div>
