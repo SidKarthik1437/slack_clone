@@ -8,7 +8,7 @@ function Sidebar() {
             <div className="sidebar__header">
                 <h2>Sid Karthik</h2>
                 <h3>
-                    
+                    <FiberManualRecordIcon />
                     Sid Karthik
                 </h3>
             </div>
