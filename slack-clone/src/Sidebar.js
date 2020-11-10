@@ -34,7 +34,7 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar__header">
                 <div className="sidebar__info">
-                    <h2>Heyaaa waasdassdasd</h2>
+                    <h2>Heyaaa</h2>
                     <h3>
                         <FiberManualRecordIcon />
                         Sid Karthik
@@ -53,7 +53,7 @@ function Sidebar() {
             <hr />
             <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
             <hr />
-            <SidebarOption Icon={AddIcon} title="Add Channel" />
+            <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
 
             {/* Connect to db */}   
             {channels.map(channel => (
