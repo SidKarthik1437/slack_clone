@@ -9,7 +9,7 @@ import { useStateValue } from './StateProvider';
 
 function App() {
 
-  const [user, setUser] = useState(null);
+  // const [user, setUser] = useState(null);
   const [{user}, dispatch] = useStateValue();
 
   return (

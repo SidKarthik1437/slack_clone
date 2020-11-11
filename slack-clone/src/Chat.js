@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom'
 import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined'
 import db from './firebase'
+import ChatInput from './ChatInput'
 
 function Chat() {
 
@@ -62,6 +63,8 @@ function Chat() {
                     />
                 ))}
             </div>
+
+            <ChatInput channel={roomdetails?.name} channelId={roomId} />
         </div>
     )
 }
